@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#container{
+    border-radius: 25px;
+    min-height: 60vh;
+    background-color:  #3450a1;
+    width:23vw;
+    margin: auto;
+    height: fit-content;
+}
+main{
+    color: #fff;
+    padding:4%;
+    display: flex;
+    flex-direction: column;
+    
+}
+main div:first-child{
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom:3%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+#create-task-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+::placeholder{
+    color: white;
+}
+input[type='text']{
+    background: #041955;
+    color:#fff;
+    width: 40%;
+    padding:2%;
+    border-radius: 15px;
+    border-style: none;
+}
+input[type='date']{
+    background: #041955;
+    color:#fff;
+    width: 30%;
+    padding:2%;
+    border-radius: 15px;
+    border-style: none; 
+}
+.add{
+    color:white;
+    background-color: green;
+    border-radius: 50%;
+    font-size: 1em;
+    width:35px;
+    border:none;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#search-task-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.input1{
+    width: 50%;
+}
+#search-button{
+    width:30%;
+    border-style: none;
+    border-radius: 15px;
+}
+#task-list-box{
+    margin-left: -4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ li{
+    display: flex;
+    margin-left:-15px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #041955;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius:15px;
+}
+.edit{
+    cursor:pointer;
+    background-color:gray;
+    border-style: none;
+    color: white;
+}
+.delete{
+    cursor:pointer;
+    background-color: rgb(216, 81, 81);
+    color: white;
+    border-style: none;
+}
+.delete:hover{
+    background-color:rgb(240, 49, 49);
+    padding:10px;
+    transition:1s;
+}
+.edit:hover{
+    background-color:rgb(83, 83, 83);
+    padding: 10px;
+    transition: 1s;
+}
+#searched-tasks{
+    margin-left: -4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.check{
+    background-color:rgb(47, 170, 47);
+    border-style: none;
+    padding:10px;
+    border-radius:15px;
+    color:white;
+    margin-left: 40%;
+    width:35%;
+}
+.hide{
+    display: none;
+}
