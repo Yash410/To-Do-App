@@ -133,7 +133,7 @@ input[type='date']{
     padding:10px;
     border-radius:15px;
     color:white;
-    margin-left: 40%;
+    margin-left: 33%;
     width:35%;
     cursor: pointer;
 }
@@ -142,4 +142,10 @@ input[type="checkbox"]{
 }
 .hide{
     display: none;
+}
+.visuallyhidden{
+    opacity: 0;
+}
+#deletebtn{
+    transition: all 1s linear;
 }
