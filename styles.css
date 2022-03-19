@@ -13,6 +13,7 @@ body{
     margin: auto;
     height: fit-content;
     box-shadow: 2px 2px 6px 4px #1f2a4d;
+    font-family: 'Open Sans', sans-serif;
 }
 main{
     color: #fff;
@@ -61,6 +62,7 @@ input[type='date']{
     font-size: 1em;
     width:35px;
     border:none;
+    cursor: pointer;
 }
 .btns{
     display: flex;
@@ -133,6 +135,10 @@ input[type='date']{
     color:white;
     margin-left: 40%;
     width:35%;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    cursor: pointer;
 }
 .hide{
     display: none;
