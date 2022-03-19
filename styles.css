@@ -12,6 +12,7 @@ body{
     width:23vw;
     margin: auto;
     height: fit-content;
+    box-shadow: 2px 2px 6px 4px #1f2a4d;
 }
 main{
     color: #fff;
